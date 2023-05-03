@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SObject_CUD_Actions</fullName>
+    <active>true</active>
+    <description>The default actions (create, edit, delete) can only be accessed if SObject Type is specified. Otherwise, the action cannot be applied.</description>
+    <errorConditionFormula>IF(AND(ISCHANGED(IsCUDActions__c), IsCUDActions__c == true, ISBLANK(SObjectType__c)), TRUE, FALSE)</errorConditionFormula>
+    <errorDisplayField>SObjectType__c</errorDisplayField>
+    <errorMessage>CUD actions can only be used if an SObject is specified.</errorMessage>
+</ValidationRule>

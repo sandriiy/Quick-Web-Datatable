@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsCUDActions__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Do you need to display standard actions (create, edit, delete) based on user&apos;s permission?</inlineHelpText>
+    <label>Is CUD Actions</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
