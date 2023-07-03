@@ -1,17 +1,15 @@
 <template>
-    <div>
-        <lightning-datatable
-            key-field="id"
-            data={test}
-            columns={test}
-            onrowselection={test}
-            enable-infinite-loading
-            onloadmore={test}
-            onrowaction={test}
-            oncancel={test}
-            oncellchange={test}
-            onsave={test}
-            errors={test}>
-        </lightning-datatable>
-    </div>
+    <lightning-card icon-name="" class="clds-container-card" if:true={configRecord}>
+        <h1 slot="title">TITLE</h1>
+
+        <!-- actions -->
+        <!-- error messages -->
+        
+        <!-- ....... -->
+        <c-quick-datatable display-name={configDisplayModeName}></c-quick-datatable>
+
+        <div slot="footer">
+            
+        </div>
+    </lightning-card>
 </template>

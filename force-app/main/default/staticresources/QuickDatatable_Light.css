@@ -1,0 +1,28 @@
+.clds-container-card a {
+  color: #2f81f7;
+}
+
+.clds-container-card a:hover {
+  color: #1f6feb;
+}
+
+.clds-container-card .slds-card {
+  background-color: #FFFFFF;
+  color: #1F2328;
+}
+
+.clds-container-card .slds-card__footer {
+  border: none;
+}
+
+.clds-container-card .slds-scrollable_y {
+  border: none;
+}
+
+.slds-text-heading_small {
+  color: #000000;
+}
+
+.slds-table {
+    background-color: #FFFFFF;
+}
