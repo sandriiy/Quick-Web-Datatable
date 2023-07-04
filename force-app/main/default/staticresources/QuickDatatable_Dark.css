@@ -1,0 +1,68 @@
+.clds-container-card a {
+  color: #2f81f7;
+}
+
+.clds-container-card a:hover {
+  color: #1f6feb;
+}
+
+.clds-container-card .slds-table tbody tr.slds-is-selected>td, .slds-table tbody tr.slds-is-selected>th, .slds-table:not(.slds-no-row-hover) tr.slds-is-selected:hover>td, .slds-table:not(.slds-no-row-hover) tr.slds-is-selected:hover>th {
+  background-color: #161D23;
+}
+
+.clds-container-card .slds-table_bordered tbody td, .slds-table_bordered tbody th, .slds-table--bordered tbody td, .slds-table--bordered tbody th {
+  border-top: none;
+}
+
+.clds-container-card .slds-card__footer {
+  border: none;
+}
+
+.clds-container-card .slds-scrollable_y {
+  border: none;
+}
+
+.clds-container-card .slds-card {
+  background-color: #28282B;
+  color: #FFFFFF;
+}
+
+.clds-container-card .slds-text-heading_small {
+  color: #FFFFFF;
+}
+
+.clds-container-card .slds-table {
+    background-color: #161D23;
+    border-color: #161D23;
+    color: #FFFFFF;
+}
+
+.clds-container-card .slds-table_header-fixed_container {
+  background-color: #161D23;
+}
+
+.clds-container-card .slds-th__action-button {
+  visibility: hidden;
+}
+
+.clds-container-card .slds-button {
+  background-color: #161D23; 
+  border: #212121;
+}
+
+.clds-container-card .slds-truncate {
+  color: #FFFFFF;
+}
+
+.clds-container-card .slds-cell-fixed {
+  background-color: #161D23;
+}
+
+.clds-container-card .slds-resizable__divider {
+  height: 0%;
+}
+
+.clds-container-card table {
+  border-top: 5px solid red; 
+  margin-top: -4px;
+}

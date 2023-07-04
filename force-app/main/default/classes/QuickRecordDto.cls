@@ -3,4 +3,6 @@ public without sharing class QuickRecordDto {
     public Integer recordId {get;} // = row number in datatable
     @AuraEnabled
     public List<QuickFieldDto> quickFields {get; set;}
+
+    // should be method to get all columns
 }
